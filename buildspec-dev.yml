@@ -10,7 +10,8 @@ phases:
       - npm install --silent --progress-false
       - npm --version
       #- npm install --silent --progress=false -g serverless
-      - npm install -g serverless
+      #- npm install -g serverless
+      - npm install serverless
       - npm install --silent --save–dev serverless-stack-output
       
   build:
